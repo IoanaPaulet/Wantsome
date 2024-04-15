@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rețete de prăjituri</title>
+</head>
+<body>
+    <header>
+        <h1>Rețete de prăjituri</h1>
+        <nav>
+            <ul>
+                <li><a href="#prajitura-ciocolata">Prăjitură cu ciocolată</a></li>
+                <li><a href="#prajitura-fructe">Prăjitură cu fructe</a></li>
+                <li><a href="#tort-caramel">Tort cu caramel</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="prajitura-ciocolata">
+            <h2>Prăjitură cu ciocolată</h2>
+            <img src="ciocolata.jpg" alt="Prăjitură cu ciocolată">
+            <p>Ingrediente:</p>
+            <ul>
+                <li>Cioccolato fondente</li>
+                <li>Ouă</li>
+                <li>Făină</li>
+                <li>Zahăr</li>
+                <li>Unt</li>
+                <li>Esentă de vanilie</li>
+            </ul>
+            <p>Mod de preparare:</p>
+            <ol>
+                <li>Topiți ciocolata și untul la bain-marie.</li>
+                <li>Bateți ouăle cu zahărul și adăugați esența de vanilie.</li>
+                <li>Adăugați ciocolata topită și făina, amestecând bine.</li>
+                <li>Turnați compoziția într-o tavă și coaceți timp de 25 de minute la 180°C.</li>
+            </ol>
+        </section>
+
+        <section id="prajitura-fructe">
+            <h2>Prăjitură cu fructe</h2>
+            <img src="fructe.jpg" alt="Prăjitură cu fructe">
+            <p>Ingrediente:</p>
+            <ul>
+                <li>Făină</li>
+                <li>Ouă</li>
+                <li>Zahăr</li>
+                <li>Fructe proaspete sau conserve</li>
+                <li>Gelatină</li>
+            </ul>
+            <p>Mod de preparare:</p>
+            <ol>
+                <li>Bateți ouăle cu zahărul până obțineți o compoziție omogenă.</li>
+                <li>Adăugați făina și amestecați până la omogenizare.</li>
+                <li>Turnați compoziția într-o tavă și așezați fructele deasupra.</li>
+                <li>Coaceți timp de 30 de minute la 180°C.</li>
+                <li>Topiți gelatina și turnați-o peste prăjitură.</li>
+                <li>Lăsați să se răcească și serviți cu plăcere!</li>
+            </ol>
+        </section>
+    </main>
+
+    <footer>
+        <p>Toate drepturile rezervate &copy; 2024</p>
+    </footer>
+</body>
+</html>
