@@ -11,9 +11,6 @@
             margin: 0;
             padding: 20px;
         }
-        h1 {
-            margin-bottom: 20px;
-        }
         table {
             width: 100%;
             border-collapse: collapse;
@@ -27,59 +24,37 @@
         th {
             background-color: #f2f2f2;
         }
-        img {
-            max-width: 100%;
-            height: auto;
-        }
     </style>
 </head>
 <body>
     <h1>Schedule</h1>
-    <a href="index.html" target="_blank">Home</a> |
-    <a href="bio.html" target="_blank">Bio</a> |
-    <a href="schedule.html" target="_blank">Schedule</a>
-    
-    <h2>Today's Schedule</h2>
     <table>
         <tr>
-            <th>Time</th>
-            <th>Event</th>
-            <th>Location</th>
+            <th></th> <!-- Coloană goală pentru prima celulă din prima linie -->
+            <th colspan="6">Days of the Week</th> <!-- Coloanele pentru zilele săptămânii -->
+            <th></th> <!-- Coloană goală pentru ultima celulă din prima linie -->
+        </tr>
+        <tr>
+            <td></td> <!-- Celulă goală pentru prima coloană din fiecare linie -->
+            <td>Monday</td>
+            <td>Tuesday</td>
+            <td>Wednesday</td>
+            <td>Thursday</td>
+            <td>Friday</td>
+            <td>Saturday</td>
+            <td>Sunday</td>
         </tr>
         <tr>
             <td>09:00 - 10:00</td>
             <td>Meeting</td>
-            <td>Conference Room</td>
-        </tr>
-        <tr>
-            <td>11:00 - 12:00</td>
             <td>Lunch</td>
-            <td>Cafeteria</td>
-        </tr>
-        <tr>
-            <td>14:00 - 15:00</td>
             <td>Training</td>
-            <td>Training Room</td>
+            <td>Conference</td>
+            <td>Workshop</td>
+            <td>Sports</td>
+            <td>Relaxation</td>
         </tr>
+        <!-- Alte rânduri și detalii pot fi adăugate aici -->
     </table>
-
-    <h3>Important Dates</h3>
-    <ul>
-        <li><i>April 20:</i> Deadline for project submissions</li>
-        <li><i>May 5:</i> Company picnic</li>
-    </ul>
-
-    <h4>Upcoming Events</h4>
-    <details>
-        <summary>Click to view</summary>
-        <p>Details about upcoming events...</p>
-    </details>
-
-    <h5>Progress Tracker</h5>
-    <meter value="60" min="0" max="100">60%</meter>
-
-    <p>For any inquiries, please contact <sup>admin@example.com</sup>.</p>
-
-    <a href="https://www.example.com"><img src="logo.png" alt="Example Logo"></a>
 </body>
 </html>
