@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>CSS</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+    .nume {
+      color: green;
+      background-color: yellow;
+      font-size: 20px;
+    }
+    
+    
+    #test {
+      color: blue;
+      font-weight: bold;
+      background-color: lightgrey;
+    }
+    
+  
+    p {
+      color: blue;
+      font-style: italic;
+    }
+
+ 
+    a:hover {
+      color: orange;
+    }
+
+    a:first-of-type {
+      font-weight: bold;
+    }
+
+    a:last-of-type {
+      text-decoration: underline;
+    }
+
+    a[href] {
+      color: purple;
+    }
+
+    p:not(.hidden) {
+      color: red;
+    }
+
+    h1[title="welcome"] {
+      font-size: 30px;
+      color: darkblue;
+    }
+
+    li > a {
+      color: darkgreen;
+    }
+
+    section p {
+      color: darkred;
+    }
+
+    article > p {
+      font-size: 18px;
+    }
+
+    .hilights ~ span {
+      color: pink;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 title="welcome">Welcome to CSS</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <article>
+    <h2>This will be the start of a new design idea</h2>
+    <p class="hidden">Let's build with:</p>
+    <ol>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JS</li>
+    </ol>
+    <p>After that we will add some:</p>
+    <ol>
+      <li>Git</li>
+      <li>React</li>
+      <li>npm</li>
+    </ol>
+  </article>
+  <article>
+    <h2>Some ideas</h2>
+    <ul>
+      <li>Cooking shop</li>
+      <li>Coffee shop</li>
+      <li>Restaurant</li>
+    </ul>
+    <p class="hilights">Un alt paragraf</p>
+    <span>Primul span</span>
+    <span>Al doilea span</span>
+    <span>Al treilea span</span>
+  </article>
+  <section>
+    <div>
+      <p>Paragraf 1</p>
+    </div>
+    <p>Paragraf 2</p>
+  </section>
+  <footer>
+    <p class="hidden">Legal stuff here</p>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </footer>
+
+  <p class="nume" style="color: green; background-color: yellow; font-size: 20px;">test</p>
+  <p id="test">test</p>
+  <p style="color: red;">test</p>
+ </body>
+
+</html>

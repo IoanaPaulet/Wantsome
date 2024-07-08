@@ -1,0 +1,79 @@
+  p {
+      color: blue;
+      font-style: italic;
+  }
+
+  .nume {
+      color: green;
+      background-color: yellow;
+      font-size: 20px;
+  }
+
+  #test {
+      color: blue;
+      font-weight: bold;
+      background-color: lightgrey;
+  }
+
+  /* Selectori avansați */
+  a:hover {
+      color: orange;
+  }
+
+  a:first-of-type {
+      font-weight: bold;
+  }
+
+  a:last-of-type {
+      text-decoration: underline;
+  }
+
+  a[href] {
+      color: purple;
+  }
+
+  p:not(.hidden) {
+      color: red;
+  }
+
+  h1[title="welcome"] {
+      font-size: 30px;
+      color: darkblue;
+  }
+
+  li>a {
+      color: darkgreen;
+  }
+
+  section p {
+      color: darkred;
+  }
+
+  article>p {
+      font-size: 18px;
+  }
+
+  .hilights~span {
+      color: pink;
+      font-weight: bold;
+  }
+
+   li a[href] {
+      color: darkblue;
+      font-weight: bold;
+  }
+
+  section p {
+      font-style: italic;
+      background-color: #e0e0e0;
+   }
+
+   article>p {
+      color: darkorange;
+      font-weight: bold;
+  }
+
+  .hilights~span {
+      color: pink;
+      font-weight: bold;
+  }
